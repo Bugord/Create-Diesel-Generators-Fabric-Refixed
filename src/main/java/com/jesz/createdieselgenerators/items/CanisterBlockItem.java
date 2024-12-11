@@ -4,9 +4,11 @@ import com.jesz.createdieselgenerators.config.ConfigRegistry;
 import com.simibubi.create.AllEnchantments;
 import com.simibubi.create.content.equipment.armor.CapacityEnchantment;
 import com.simibubi.create.foundation.utility.Lang;
+import com.simibubi.create.infrastructure.config.AllConfigs;
 import io.github.fabricators_of_create.porting_lib.enchant.CustomEnchantingBehaviorItem;
 import io.github.fabricators_of_create.porting_lib.transfer.fluid.item.FluidHandlerItemStack;
 import io.github.fabricators_of_create.porting_lib.fluids.FluidStack;
+import io.github.fabricators_of_create.porting_lib.util.FluidTextUtil;
 import net.fabricmc.fabric.api.transfer.v1.context.ContainerItemContext;
 import net.fabricmc.fabric.api.transfer.v1.fluid.FluidVariant;
 import net.fabricmc.fabric.api.transfer.v1.storage.Storage;
@@ -50,7 +52,7 @@ public class CanisterBlockItem extends BlockItem implements CapacityEnchantment.
             components.add(Lang.fluidName(fStack).component()
                     .withStyle(ChatFormatting.GRAY)
                     .append(" ")
-                    .append(Lang.number(fStack.getAmount())
+                    .append(Lang.text(FluidTextUtil.getUnicodeMillibuckets(fStack.getAmount(), AllConfigs.client().fluidUnitType.get(), AllConfigs.client().simplifyFluidUnit.get()))
                             .style(ChatFormatting.GOLD).component())
                     .append(Component.translatable("create.generic.unit.millibuckets").withStyle(ChatFormatting.GOLD))
                     .append(Component.literal(" / "))
