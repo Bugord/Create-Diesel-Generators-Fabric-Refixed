@@ -16,12 +16,17 @@ Adding Diesel Generators (and more stuff) to the <a href="https://www.curseforge
 <img src="https://cdn.discordapp.com/emojis/1122645482825580664.png?size=48&quality=lossless">
 <img src="https://cdn.discordapp.com/emojis/1121801687502434525.png?size=48&quality=lossless">
 <img src="https://cdn.discordapp.com/emojis/1121802680143204452.png?size=48&quality=lossless">
-<br><br>What's fixed:
-<div align="center">
-  <ul style="display: inline-block; text-align: left;">
-    <li>most fluid issues, including pumpjacks pumping up oil at 1/81 of the intended rate</li>
-    <li>oil canisters displaying 81 times their content when hovering over them in the inventory</li>
-  </ul>
-</div>
-<br>If you want to help fix the remaining known issues of the mod, feel free to make a pull request<br>
+<br><br><b>What's fixed:</b>
+<br>- most fluid issues, including pumpjacks pumping up oil at 1/81 of the intended rate
+<br>- oil canisters displaying 81 times their content when hovering over them in the inventory
+<br>
+<br><b>What's added:</b>
+<br>- using fuels like diesel to smelt items in the furnace, enabling compat for <a href="https://modrinth.com/mod/immersive-aircraft">Immersive Aircraft</a>, <a href="https://modrinth.com/mod/create-steam-n-rails">Create: Steam 'n' Rails</a> and probably more
+<br>
+<br><b>Known issues:</b>
+<br>- the oil barrel is unfunctional
+<br>- the distillation tower's capacity is lower than it should be
+<br>- pumpjack cranks set to large will not visually connect to the pumpjack bearing
+<br>
+<br>If you want to help fix the remaining known issues of the mod, feel free to open a pull request!!<br>
 </p>
