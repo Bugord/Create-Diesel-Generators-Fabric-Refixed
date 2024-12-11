@@ -17,9 +17,11 @@ Adding Diesel Generators (and more stuff) to the <a href="https://www.curseforge
 <img src="https://cdn.discordapp.com/emojis/1121801687502434525.png?size=48&quality=lossless">
 <img src="https://cdn.discordapp.com/emojis/1121802680143204452.png?size=48&quality=lossless">
 <br><br>What's fixed:
-  <ul style="display: table; margin: 0 auto;">
+<div align="center">
+  <ul style="display: inline-block; text-align: left;">
     <li>most fluid issues, including pumpjacks pumping up oil at 1/81 of the intended rate</li>
     <li>oil canisters displaying 81 times their content when hovering over them in the inventory</li>
   </ul>
+</div>
 <br>If you want to help fix the remaining known issues of the mod, feel free to make a pull request<br>
 </p>
