@@ -16,17 +16,27 @@ Adding Diesel Generators (and more stuff) to the <a href="https://www.curseforge
 <img src="https://cdn.discordapp.com/emojis/1122645482825580664.png?size=48&quality=lossless">
 <img src="https://cdn.discordapp.com/emojis/1121801687502434525.png?size=48&quality=lossless">
 <img src="https://cdn.discordapp.com/emojis/1121802680143204452.png?size=48&quality=lossless">
-<br><br><b>What's fixed:</b>
-<br>- most fluid issues, including pumpjacks pumping up oil at 1/81 of the intended rate
-<br>- oil canisters displaying 81 times their content when hovering over them in the inventory
-<br>
-<br><b>What's added:</b>
-<br>- using fuels like diesel to smelt items in the furnace, enabling compat for <a href="https://modrinth.com/mod/immersive-aircraft">Immersive Aircraft</a>, <a href="https://modrinth.com/mod/create-steam-n-rails">Create: Steam 'n' Rails</a> and probably more
-<br>
-<br><b>Known issues:</b>
-<br>- the oil barrel is unfunctional
-<br>- the distillation tower's capacity is lower than it should be
-<br>- pumpjack cranks set to large will not visually connect to the pumpjack bearing
-<br>
-<br>If you want to help fix the remaining known issues of the mod, feel free to open a pull request!!<br>
+<div align="center">
+<table>
+  <tr>
+    <th>What's fixed</th>
+  </tr>
+  <tr>
+    <td>most fluid issues, including pumpjacks pumping up oil at 1/81 of the intended rate</td>
+  </tr>
+  <tr>
+    <td>oil canisters displaying 81 times their content when hovering over them in the inventory</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>What's added</th>
+  </tr>
+  <tr>
+    <td>using fuels like diesel to smelt items in the furnace, enabling compat for<br><a href="https://modrinth.com/mod/immersive-aircraft">Immersive Aircraft</a>, <a href="https://modrinth.com/mod/create-steam-n-rails">Create: Steam 'n' Rails</a> and probably more</td>
+  </tr>
+</table>
+
+<p align="center">If you want to help fix the remaining known <a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/issues">issues</a> of the mod, feel free to <a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/compare">create a pull request</a>!!<br>
 </p>
