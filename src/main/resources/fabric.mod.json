@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "createdieselgenerators",
   "version": "${version}",
-  "name": "Create Diesel Generators Restitched",
+  "name": "Create Diesel Generators",
   "description": "Restitched fabric port of diesel generators",
   "authors": [
     "george8188625",
