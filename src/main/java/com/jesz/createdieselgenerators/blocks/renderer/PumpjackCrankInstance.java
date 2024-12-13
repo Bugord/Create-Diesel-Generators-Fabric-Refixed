@@ -65,10 +65,19 @@ public class PumpjackCrankInstance extends KineticBlockEntityInstance<PumpjackCr
             ms = new PoseStack();
             msr = TransformStack.cast(ms);
             msr.translate(getInstancePosition());
-            if(isXAxis) {
-                msr.translate(0.5, 1.25, 0).translate(cos, sin, 0).rotateZ(Math.atan2(dstY, dstX)*180/Math.PI-90);
-            }else {
-                msr.translate(0, 1.25, 0.5).translate(0, sin, cos).rotateY(90).rotateZ(Math.atan2(dstZ, dstY)*180/Math.PI);
+            if(blockEntity.crankSize.getValue() == 0) {
+                if (isXAxis) {
+                    msr.translate(0.5, 1.25, 0).translate(cos, sin, 0).rotateZ(Math.atan2(dstY, dstX) * 180 / Math.PI - 90);
+                } else {
+                    msr.translate(0, 1.25, 0.5).translate(0, sin, cos).rotateY(90).rotateZ(Math.atan2(dstZ, dstY) * 180 / Math.PI);
+                }
+            } else {
+                // now this is not my best work. i kinda hate it honestly. ive been throwing maths at the wall and seeing what sticks for hours now. aaaa ill take it i guess
+                if (isXAxis) {
+                    msr.scale(2).translate(0.25, 1.25/2, -0.25).translate(cos/2, sin/2, 0).rotateZ(Math.atan2(dstY, dstX) * 180 / Math.PI - 90);
+                } else {
+                    msr.scale(2).translate(-0.25, 1.25/2, 0.25).translate(0, sin/2, cos/2).rotateY(90).rotateZ(Math.atan2(dstZ, dstY) * 180 / Math.PI);
+                }
             }
             (blockEntity.crankSize.getValue() == 0 ? crank_rod : large_crank_rod).setTransform(ms);
             (blockEntity.crankSize.getValue() == 0 ? large_crank_rod : crank_rod).setEmptyTransform();
@@ -103,10 +112,19 @@ public class PumpjackCrankInstance extends KineticBlockEntityInstance<PumpjackCr
         double dstX = crankBearingLocation.x-cos-0.5 - pos.getX();
         double dstZ = crankBearingLocation.x-cos-0.5 - pos.getZ();
 
-        if(isXAxis) {
-            msr.translate(0.5, 1.25, 0).translate(cos, sin, 0).rotateZ(Math.atan2(dstY, dstX)*180/Math.PI-90);
-        }else {
-            msr.translate(0, 1.25, 0.5).translate(0, sin, cos).rotateY(90).rotateZ(Math.atan2(dstZ, dstY)*180/Math.PI);
+        if(blockEntity.crankSize.getValue() == 0) {
+            if(isXAxis) {
+                msr.translate(0.5, 1.25, 0).translate(cos, sin, 0).rotateZ(Math.atan2(dstY, dstX)*180/Math.PI-90);
+            }else {
+                msr.translate(0, 1.25, 0.5).translate(0, sin, cos).rotateY(90).rotateZ(Math.atan2(dstZ, dstY)*180/Math.PI);
+            }
+        } else {
+            // horrible. see above
+            if(isXAxis) {
+                msr.scale(2).translate(0.5/2, 1.25/2, -0.25).translate(cos/2, sin/2, 0).rotateZ(Math.atan2(dstY, dstX)*180/Math.PI-90);
+            }else {
+                msr.scale(2).translate(-0.25, 1.25/2, 0.5/2).translate(0, sin/2, cos/2).rotateY(90).rotateZ(Math.atan2(dstZ, dstY)*180/Math.PI);
+            }
         }
         (blockEntity.crankSize.getValue() == 0 ? crank_rod : large_crank_rod).setTransform(ms);
         (blockEntity.crankSize.getValue() == 0 ? large_crank_rod : crank_rod).setEmptyTransform();
