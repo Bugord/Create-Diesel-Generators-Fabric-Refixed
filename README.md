@@ -1,9 +1,10 @@
-<h1 align="center"><img src="https://cdn.modrinth.com/data/cached_images/08de4fe4adb1e04104f2a845b75a95324603fb42.png" width=400px></h1>
+<!--<h1 align="center"><img src="https://cdn.modrinth.com/data/cached_images/08de4fe4adb1e04104f2a845b75a95324603fb42.png" width=400px></h1>-->
+<h1 align="center"><img src="https://cdn.modrinth.com/data/cached_images/751b31a21e8ab4e1b414d0105ad45a4961b6593f.png" width=400px></h1>
 <p align="center">
   <a href="https://modrinth.com/mod/create-diesel-generators"><img src="https://img.shields.io/modrinth/dt/create-diesel-generators?logo=modrinth&label=&suffix=%20&style=flat&color=242629&labelColor=5ca424&logoColor=1c1c1c"></a>
   <a href="https://www.curseforge.com/minecraft/mc-mods/create-diesel-generators"><img src="https://cf.way2muchnoise.eu/869316.svg"></a>
   <a href="https://discord.gg/pUgaSXcGEQ"><img src="https://img.shields.io/discord/1121792423836799128?color=5865f2&label=Discord"></a><br>
-A mod that adds Diesel Generators to the <a href="https://www.curseforge.com/minecraft/mc-mods/create">Create</a> mod.<br><i>the title logo was made by DAXXXZ_NORT_2077</i>
+A mod that adds Diesel Generators to the <a href="https://www.curseforge.com/minecraft/mc-mods/create">Create</a> mod.<br><i>the original title logo was made by DAXXXZ_NORT_2077</i>
 <br>
 <br>
 <img src="https://cdn.discordapp.com/emojis/1121801687502434525.png?size=48&quality=lossless">
