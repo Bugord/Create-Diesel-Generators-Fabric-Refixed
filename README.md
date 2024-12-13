@@ -3,7 +3,7 @@
   <a href="https://modrinth.com/mod/create-diesel-generators"><img src="https://img.shields.io/modrinth/dt/create-diesel-generators?logo=modrinth&label=&suffix=%20&style=flat&color=242629&labelColor=5ca424&logoColor=1c1c1c"></a>
   <a href="https://www.curseforge.com/minecraft/mc-mods/create-diesel-generators"><img src="https://cf.way2muchnoise.eu/869316.svg"></a>
   <a href="https://discord.gg/pUgaSXcGEQ"><img src="https://img.shields.io/discord/1121792423836799128?color=5865f2&label=Discord"></a><br>
-Adding Diesel Generators (and more stuff) to the <a href="https://www.curseforge.com/minecraft/mc-mods/create">Create</a> mod.<br><i>the title logo was made by DAXXXZ_NORT_2077</i>
+A mod that adds Diesel Generators to the <a href="https://www.curseforge.com/minecraft/mc-mods/create">Create</a> mod.<br><i>the title logo was made by DAXXXZ_NORT_2077</i>
 <br>
 <br>
 <img src="https://cdn.discordapp.com/emojis/1121801687502434525.png?size=48&quality=lossless">
@@ -17,6 +17,8 @@ Adding Diesel Generators (and more stuff) to the <a href="https://www.curseforge
 <img src="https://cdn.discordapp.com/emojis/1121801687502434525.png?size=48&quality=lossless">
 <img src="https://cdn.discordapp.com/emojis/1121802680143204452.png?size=48&quality=lossless">
 <div align="center">
+This mod is a ⋆⁺₊restitched⁺₊⋆ version of <a href="https://modrinth.com/mod/create-diesel-generators-fabric">mrsterner's fabric port</a> of <a href="https://modrinth.com/mod/create-diesel-generators">george8188625's addon that adds Diesel Generators to the Create mod</a>. It is built on top of <a href="https://github.com/Bugord/Create-Diesel-Generators-Fabric-Refixed/tree/1.20.1">Bugord's amazing fork which implements most of the fluid fixes</a>.
+<br><br>
 <table>
   <tr>
     <th>What's fixed</th>
