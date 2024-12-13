@@ -239,6 +239,7 @@ public class DistillationTankBlockEntity extends SmartBlockEntity implements IMu
         sendData();
         if (level.isClientSide)
             invalidateRenderBoundingBox();
+        refreshCapability();
     }
 
     private void onPositionChanged() {
