@@ -1,8 +1,8 @@
 <!--<h1 align="center"><img src="https://cdn.modrinth.com/data/cached_images/08de4fe4adb1e04104f2a845b75a95324603fb42.png" width=400px></h1>-->
 <h1 align="center"><img src="https://cdn.modrinth.com/data/cached_images/751b31a21e8ab4e1b414d0105ad45a4961b6593f.png" width=400px></h1>
 <p align="center">
-  <a href="https://modrinth.com/mod/create-diesel-generators"><img src="https://img.shields.io/modrinth/dt/create-diesel-generators?logo=modrinth&label=&suffix=%20&style=flat&color=242629&labelColor=5ca424&logoColor=1c1c1c"></a>
-  <a href="https://www.curseforge.com/minecraft/mc-mods/create-diesel-generators"><img src="https://cf.way2muchnoise.eu/869316.svg"></a>
+  <a href="https://modrinth.com/mod/create-diesel-generators-fabric-restitched"><img src="https://img.shields.io/modrinth/dt/zMna5NU5?logo=modrinth&label=&suffix=%20&style=flat&color=242629&labelColor=5ca424&logoColor=1c1c1c"></a>
+  <!--<a href="https://www.curseforge.com/minecraft/mc-mods/create-diesel-generators"><img src="https://cf.way2muchnoise.eu/869316.svg"></a>-->
   <a href="https://discord.gg/pUgaSXcGEQ"><img src="https://img.shields.io/discord/1121792423836799128?color=5865f2&label=Discord"></a><br>
 A mod that adds Diesel Generators to the <a href="https://www.curseforge.com/minecraft/mc-mods/create">Create</a> mod.<br><i>the original title logo was made by DAXXXZ_NORT_2077</i>
 <br>
@@ -30,6 +30,15 @@ This mod is a ⋆⁺₊restitched⁺₊⋆ version of <a href="https://modrinth.
   <tr>
     <td>oil canisters displaying 81 times their content when hovering over them in the inventory</td>
   </tr>
+  <tr>
+    <td><a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/issues/2">#2</a> distillation towers only being able to hold 4500mb per level instead of the expected 72000mb</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/issues/4">#4</a> distillation tower fluid insertion or extraction only working on the north-eastern most corner of the tower after server restart</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/issues/3">#3</a> pumpjack cranks set to large not visually connecting to the pumpjack bearing</td>
+  </tr>
 </table>
 
 <table>
@@ -42,4 +51,6 @@ This mod is a ⋆⁺₊restitched⁺₊⋆ version of <a href="https://modrinth.
 </table>
 
 <p align="center">If you want to help fix the remaining known <a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/issues">issues</a> of the mod, feel free to <a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/compare">create a pull request</a>!!<br>
+
+<!--<p align="center">Every gameplay-breaking issue is already fixed. Feel free to <a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/issues">report any issue</a> or <a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/compare">create a pull request</a> if you want to help mature the mod!!<br>-->
 </p>
