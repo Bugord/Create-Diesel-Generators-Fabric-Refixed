@@ -39,6 +39,12 @@ This mod is a ⋆⁺₊restitched⁺₊⋆ version of <a href="https://modrinth.
   <tr>
     <td><a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/issues/3">#3</a> pumpjack cranks set to large not visually connecting to the pumpjack bearing</td>
   </tr>
+  <tr>
+    <td><a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/issues/6">#6</a> lighters not opening, closing or lighting up visually</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/issues/7">#7</a> lighter skins not working at all</td>
+  </tr>
 </table>
 
 <table>
