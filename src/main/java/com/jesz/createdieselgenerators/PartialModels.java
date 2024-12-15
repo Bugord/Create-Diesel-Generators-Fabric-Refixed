@@ -41,17 +41,17 @@ public class PartialModels {
     public static final PartialModel JEI_DISTILLER_MIDDLE      = new PartialModel(new ResourceLocation("createdieselgenerators:block/jei_distiller/middle"));
     public static final PartialModel JEI_DISTILLER_BOTTOM      = new PartialModel(new ResourceLocation("createdieselgenerators:block/jei_distiller/bottom"));
     public static final PartialModel JEI_ENGINE_PISTON         = new PartialModel(new ResourceLocation("createdieselgenerators:block/huge_diesel_engine/jei_piston"));
-    public static Map<String, Pair<CDGPartialModel, Pair<CDGPartialModel, CDGPartialModel>>> lighterSkinModels = new HashMap<>();
+    public static Map<String, Pair<PartialModel, Pair<PartialModel, PartialModel>>> lighterSkinModels = new HashMap<>();
     public static void init(){}
     public static void initSkins(){
         lighterSkinModels.clear();
-        lighterSkinModels.put("standard", Pair.of(new CDGPartialModel(new ResourceLocation("createdieselgenerators:item/lighter"))
-                , Pair.of(new CDGPartialModel(new ResourceLocation("createdieselgenerators:item/lighter_open"))
-                        , new CDGPartialModel(new ResourceLocation("createdieselgenerators:item/lighter_ignited")))));
+        lighterSkinModels.put("standard", Pair.of(new PartialModel(new ResourceLocation("createdieselgenerators:item/lighter"))
+                , Pair.of(new PartialModel(new ResourceLocation("createdieselgenerators:item/lighter_open"))
+                        , new PartialModel(new ResourceLocation("createdieselgenerators:item/lighter_ignited")))));
         CreateDieselGeneratorsClient.lighterSkins.forEach((name, skinId) -> {
-            lighterSkinModels.put(skinId, Pair.of(new CDGPartialModel(new ResourceLocation("createdieselgenerators:item/lighter/"+skinId))
-                    , Pair.of(new CDGPartialModel(new ResourceLocation("createdieselgenerators:item/lighter/"+skinId+"_open"))
-                    , new CDGPartialModel(new ResourceLocation("createdieselgenerators:item/lighter/"+skinId+"_ignited")))));
+            lighterSkinModels.put(skinId, Pair.of(new PartialModel(new ResourceLocation("createdieselgenerators:item/lighter/"+skinId))
+                    , Pair.of(new PartialModel(new ResourceLocation("createdieselgenerators:item/lighter/"+skinId+"_open"))
+                    , new PartialModel(new ResourceLocation("createdieselgenerators:item/lighter/"+skinId+"_ignited")))));
         });
     }
 }

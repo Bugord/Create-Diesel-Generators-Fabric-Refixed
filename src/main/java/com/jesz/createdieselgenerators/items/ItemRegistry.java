@@ -17,7 +17,7 @@ public class ItemRegistry {
     public static final ItemEntry<Item> ENGINE_TURBO = REGISTRATE.item("engine_turbocharger", Item::new).register();
     public static final ItemEntry<DistillationControllerItem> DISTILLATION_CONTROLLER = REGISTRATE.item("distillation_controller", DistillationControllerItem::new).register();
     public static final ItemEntry<LighterItem> LIGHTER = REGISTRATE.item("lighter", LighterItem::new)
-          //  .transform((CreateRegistrate.customRenderedItem(() -> LighterItemRenderer::new)))
+            .transform((CreateRegistrate.customRenderedItem(() -> LighterItemRenderer::new)))
             .register();
     public static final ItemEntry<ChemicalSprayerItem> CHEMICAL_SPRAYER = REGISTRATE.item("chemical_sprayer", p -> new ChemicalSprayerItem(p, false))
             .transform((CreateRegistrate.customRenderedItem(() -> ChemicalSprayerItemRenderer::new)))
