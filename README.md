@@ -25,7 +25,7 @@ This mod is a ⋆⁺₊restitched⁺₊⋆ version of <a href="https://modrinth.
     <th>What's fixed</th>
   </tr>
   <tr>
-    <td>most fluid issues, including pumpjacks pumping up oil at 1/81 of the intended rate</td>
+    <td>most fluid issues, including pumpjacks pumping up oil at 1/81 of the intended rate <a href="https://github.com/Bugord/Create-Diesel-Generators-Fabric-Refixed">thanks to Bugord</a></td>
   </tr>
   <tr>
     <td>oil canisters displaying 81 times their content when hovering over them in the inventory</td>
