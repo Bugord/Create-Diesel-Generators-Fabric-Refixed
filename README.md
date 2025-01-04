@@ -34,7 +34,7 @@ This mod is a ⋆⁺₊restitched⁺₊⋆ version of <a href="https://modrinth.
     <td><a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/issues/2">#2</a> distillation towers only being able to hold 4500mb per level instead of the expected 72000mb</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/issues/4">#4</a> distillation tower fluid insertion or extraction only working on the north-eastern most corner of the tower after server restart</td>
+    <td><a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/issues/4">#4</a> distillation tower fluid insertion or extraction barely working after server restart</td>
   </tr>
   <tr>
     <td><a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/issues/3">#3</a> pumpjack cranks set to large not visually connecting to the pumpjack bearing</td>
