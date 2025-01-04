@@ -107,7 +107,7 @@ public class FluidRegistry {
                         FluidStorage.combinedItemApiProvider(BUCKET).register(context ->
                                 new EmptyItemFluidStorage(context, bucket -> ItemVariant.of(source.getBucket()), source, FluidConstants.BUCKET));
 
-                        FuelRegistry.INSTANCE.add(source.getBucket(), 50000);
+                        FuelRegistry.INSTANCE.add(source.getBucket(), 32767);
                     })
                     .register();
     public static final FluidEntry<SimpleFlowableFluid.Flowing> GASOLINE =
@@ -128,7 +128,7 @@ public class FluidRegistry {
                         FluidStorage.combinedItemApiProvider(BUCKET).register(context ->
                                 new EmptyItemFluidStorage(context, bucket -> ItemVariant.of(source.getBucket()), source, FluidConstants.BUCKET));
 
-                        FuelRegistry.INSTANCE.add(source.getBucket(), 50000);
+                        FuelRegistry.INSTANCE.add(source.getBucket(), 32767);
                     })
                     .register();
     public static final FluidEntry<SimpleFlowableFluid.Flowing> ETHANOL =
