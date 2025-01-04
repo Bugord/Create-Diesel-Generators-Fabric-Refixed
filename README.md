@@ -45,6 +45,12 @@ This mod is a ⋆⁺₊restitched⁺₊⋆ version of <a href="https://modrinth.
   <tr>
     <td><a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/issues/7">#7</a> lighter skins not working at all</td>
   </tr>
+  <tr>
+    <td><a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/issues/21">#21</a> the golden carrot basin fermenting recipe not working</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/mircey/create-diesel-generators-fabric-restitched/issues/26">#26</a> ponder scenes having a duplicate of themselves as their next scene</td>
+  </tr>
 </table>
 
 <table>
