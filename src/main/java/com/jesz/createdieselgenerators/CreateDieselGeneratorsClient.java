@@ -46,7 +46,6 @@ public class CreateDieselGeneratorsClient implements ClientModInitializer {
         SpriteShifts.init();
         //ModLoadingContext.registerConfig(CreateDieselGenerators.ID,  ModConfig.Type.CLIENT, ConfigRegistry.CLIENT_SPEC);
         ForgeConfigRegistry.INSTANCE.register(CreateDieselGenerators.ID, ModConfig.Type.CLIENT, ConfigRegistry.CLIENT_SPEC);
-        PonderIndex.register();
         ModelLoadingRegistry.INSTANCE.registerModelProvider(CreateDieselGeneratorsClient::onModelRegistry);
         //TODO??? CDGPartialModel::onModelBake;
 
