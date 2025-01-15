@@ -6,6 +6,7 @@ import com.simibubi.create.AllFluids;
 import com.simibubi.create.AllTags;
 import com.tterrag.registrate.util.entry.FluidEntry;
 import com.tterrag.registrate.fabric.SimpleFlowableFluid;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.transfer.v1.fluid.*;
 import net.fabricmc.fabric.api.transfer.v1.fluid.base.EmptyItemFluidStorage;
 import net.fabricmc.fabric.api.transfer.v1.fluid.base.FullItemFluidStorage;
@@ -41,6 +42,8 @@ public class FluidRegistry {
                                 new FullItemFluidStorage(context, bucket -> ItemVariant.of(BUCKET), FluidVariant.of(source), FluidConstants.BUCKET));
                         FluidStorage.combinedItemApiProvider(BUCKET).register(context ->
                                 new EmptyItemFluidStorage(context, bucket -> ItemVariant.of(source.getBucket()), source, FluidConstants.BUCKET));
+
+                        FuelRegistry.INSTANCE.add(source.getBucket(), 5000);
                     })
                     .register();
     public static final FluidEntry<SimpleFlowableFluid.Flowing> CRUDE_OIL =
@@ -83,6 +86,7 @@ public class FluidRegistry {
                         FluidStorage.combinedItemApiProvider(BUCKET).register(context ->
                                 new EmptyItemFluidStorage(context, bucket -> ItemVariant.of(source.getBucket()), source, FluidConstants.BUCKET));
 
+                        FuelRegistry.INSTANCE.add(source.getBucket(), 25000);
                     })
                     .register();
     public static final FluidEntry<SimpleFlowableFluid.Flowing> DIESEL =
@@ -103,6 +107,7 @@ public class FluidRegistry {
                         FluidStorage.combinedItemApiProvider(BUCKET).register(context ->
                                 new EmptyItemFluidStorage(context, bucket -> ItemVariant.of(source.getBucket()), source, FluidConstants.BUCKET));
 
+                        FuelRegistry.INSTANCE.add(source.getBucket(), 32767);
                     })
                     .register();
     public static final FluidEntry<SimpleFlowableFluid.Flowing> GASOLINE =
@@ -123,6 +128,7 @@ public class FluidRegistry {
                         FluidStorage.combinedItemApiProvider(BUCKET).register(context ->
                                 new EmptyItemFluidStorage(context, bucket -> ItemVariant.of(source.getBucket()), source, FluidConstants.BUCKET));
 
+                        FuelRegistry.INSTANCE.add(source.getBucket(), 32767);
                     })
                     .register();
     public static final FluidEntry<SimpleFlowableFluid.Flowing> ETHANOL =
@@ -143,6 +149,7 @@ public class FluidRegistry {
                         FluidStorage.combinedItemApiProvider(BUCKET).register(context ->
                                 new EmptyItemFluidStorage(context, bucket -> ItemVariant.of(source.getBucket()), source, FluidConstants.BUCKET));
 
+                        FuelRegistry.INSTANCE.add(source.getBucket(), 6250);
                     })
                     .register();
 

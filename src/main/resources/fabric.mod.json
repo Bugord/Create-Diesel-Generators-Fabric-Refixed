@@ -3,14 +3,17 @@
   "id": "createdieselgenerators",
   "version": "${version}",
   "name": "Create Diesel Generators",
-  "description": "Fabric port of diesel generators",
+  "description": "Restitched fabric port of diesel generators",
   "authors": [
-    "MrSterner"
+    "george8188625",
+    "MrSterner",
+    "Bugord",
+    "mircey"
   ],
   "contact": {
   },
   "license": "MIT",
-  "icon": "createde_icon.png",
+  "icon": "createder_icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
